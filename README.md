@@ -1,6 +1,15 @@
-api-server
-======
-The server that the application communicates with to get and alter data.
+# api-server
+> Central API service.
 
-## Contributing
-Please see the [CONTRIBUTING.md](CONTRIBUTING.md) file for more information on how to contribute to soundcove.
+## Installation
+```shell
+$ npm install soundcove/api-server
+```
+
+## Credits
+| ![soundcove][avatar] |
+|:---:|
+| [SoundCove][github] |
+
+  [avatar]: https://avatars.githubusercontent.com/u/15117174?v=3&s=125
+  [github]: https://github.com/soundcove

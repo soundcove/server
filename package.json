@@ -1,24 +1,27 @@
 {
   "name": "api-server",
+  "author": "SoundCove",
   "version": "0.0.0",
-  "description": "The WebSocket-based API server.",
-  "main": "index.js",
+  "description": "Central API service.",
+  "main": "lib",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/soundcove/api-server.git"
+    "url": "https://github.com/soundcove/api-server"
   },
-  "keywords": [
-    "music",
-    "collaberative",
-    "share",
-    "listen"
+  "scripts": {
+    "test": "tape test",
+    "start": "node lib/index.js"
+  },
+  "private": true,
+  "files": [
+    "lib"
   ],
-  "author": "SoundCove Developer Team",
-  "bugs": {
-    "url": "https://github.com/soundcove/api-server/issues"
+  "devDependencies": {
+    "eslint": "^2.10.2",
+    "eslint-config-google": "^0.5.0",
+    "tape": "^4.5.1"
   },
-  "homepage": "https://github.com/soundcove",
-  "engines": {
-    "node": "^4.1.0"
+  "dependencies": {
+    "uws": "^0.4.1"
   }
 }
